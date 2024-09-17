@@ -8,9 +8,9 @@ testcase01.py--Description
 
 
 >Works with Flipkart web app where we perform the below steps
-> go to flipkart.com
-> Maximize the window
-> goes to Fashion
-> goes to Men Footwear
-> goes to Men's casual footwear
-> works with the slider to adjust the price
+1. go to flipkart.com 
+2. Maximize the window 
+3. goes to Fashion 
+4. goes to Men Footwear
+5. goes to Men's casual footwear 
+6. works with the slider to adjust the price
