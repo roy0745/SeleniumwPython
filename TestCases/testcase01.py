@@ -28,14 +28,14 @@ achain.move_to_element(pointer1).pause(1).click_and_hold(pointer1).move_by_offse
 achain.move_to_element(pointer2).pause(1).click_and_hold(pointer2).move_by_offset(-60,0).release().perform()
 
 time.sleep(4)
-# driver.find_element(By.XPATH, "//a[@title='Corporate Casuals For Men']").click()
-# time.sleep(4)
-#
-# allhandle = driver.window_handles
-#
-# for h in allhandle:
-#     if h != p:
-#         driver.switch_to.window(p)
-# time.sleep(4)
+driver.find_element(By.XPATH, "//a[@title='Corporate Casuals For Men']").click()
+time.sleep(4)
+
+allhandle = driver.window_handles
+
+for h in allhandle:
+    if h != p:
+        driver.switch_to.window(p)
+time.sleep(4)
 
 driver.close()
